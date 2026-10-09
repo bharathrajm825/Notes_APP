@@ -1,0 +1,83 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #55A9A0;
+}
+.header{
+    display: flex;
+    color:#FFF8B0 ;
+    background-color:#287A74 ;
+    align-items: center;
+   
+    
+}
+.header h1{
+    margin-left: 8%;
+}
+.footer{
+    
+    bottom:0;
+    color: #FFF8B0;
+    text-align: center;
+    width: 100%;
+}
+
+form{
+    position: relative;
+  width: 580px;
+  margin: 80px auto 20px auto;
+  background:#AEEED3;
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input{
+    width:90%;
+    border: 0px;
+    font-size: 1.2em;
+    background-color: #AEEED3;
+    outline: none;
+    margin:5px;
+}
+.add-note-btn {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color:#55A9A0 ;
+    color: antiquewhite;
+}   
+.save-note-btn{
+    width:100px;
+    height:28px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    background-color:#55A9A0 ;
+    color: antiquewhite;
+}
+li{
+    
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    background-color: #AEEED3;
+    border-radius: 5px;
+}
+ul{
+    display: flex;
+}
+input::placeholder {
+  color: #287A74;        /* change to any color */
+  opacity: 1;         /* ensure full visibility */
+}
+.EventNoteIcon{
+    color: #FFF8B0;
+    
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
