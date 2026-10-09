@@ -180,4 +180,4 @@ In the project directory, you can run:
 ## 👤 Author
 
 Developed by [**Bharath Raj M**](https://github.com/bharathrajm825)
-- Copyright © 2026 Bharath, Inc.
+
